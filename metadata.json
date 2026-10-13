@@ -1,0 +1,6 @@
+{
+  "name": "GritCoach",
+  "description": "Your personal AI coach for clarity, discipline, productivity, learning, and personal growth.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
