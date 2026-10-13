@@ -1,8 +1,5 @@
 
-name: Build GritCoach APK
-
-on:
-  workflow_dispatch:
+  workch:
   push:
     branches: [main]
 
@@ -25,7 +22,5 @@ jobs:
           ./gradlew assembleDebug
 
       - name: Upload APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: GritCoach-APK
-          path: app/build/outputs/apk/debug/*.apk
+        uses: actions/upload-artifact@v4apk
+
